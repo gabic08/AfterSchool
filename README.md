@@ -7,20 +7,20 @@ The database consists of the following tables:
  - ELEV(ID, IdAterS, IdGrupa, Nume, DataNastere, Varsta, DataInmatriculare, NumeParinte, NrTelefon, Activ)
  - PROFESOR(ID, IdAterS, Nume, Materie, Salariu, Vechime, Activ)
  - PROFESORGRUPA(ID, IdGrupa, IdProfesor)
-<br>
+<br><br>
 1. Write the SQL statements to perform:
 a. Create the AfterSchool database
 b. Creating tables in the description. Use Primary Key, Foreign Key, NULL, NOT NULL and others
 constraints.
 c. Inserting at least 5 lines in the TEACHER, GROUP, TEACHERGROUP tables and 50 lines in
 STUDENT. You need as much information as possible so the following exercises have results.
-<br>
+<br><br>
 2. One of the parents wants to know if there are other children born in the group in which he has his child enrolled.
 in the same month with his child. He needs his parents' names and contact details because he wants to
 he proposed to them to have a big birthday party together. To meet the requirement
 use subquery to find out the answer. (It is assumed that you have the GDPR consent of his parents to
 share this information).
-<br>
+<br><br>
 3. The director asks you to make a report showing the following information:
 a. Name of Teacher
 b. Number of students
@@ -29,7 +29,7 @@ D. Year (Zero - VIII)
 Make the above report in a view using joins between the required tables and name
 columns exactly as above.
 
-<br>
+<br><br>
 4. From her own funds, the kindergarten principal decides that she can offer bonuses to the incumbent teachers
 of the number of students in the class and seniority. She needs the following information:
 a. Name of Teacher
@@ -48,6 +48,6 @@ Cumulated with
 - 3% for more than 21 students
 Perform a stored procedure that generates the above report using join between tables.
 
-<br>
+<br><br>
 5. One of the parents moves his child to another institution. Performs a stored procedure that
 update the student in the Student table (set them to idle) and then remove him from his class.
