@@ -45,7 +45,7 @@ The percentage is calculated as follows:
 Cumulated with
 - 0% for less than 20 students
 - 3% for more than 21 students
-Perform a stored procedure that generates the above report using join between tables.
+<br>Perform a stored procedure that generates the above report using join between tables.
 <br><br>
 5. One of the parents moves his child to another institution. Performs a stored procedure that
 update the student in the Student table (set them to idle) and then remove him from his class.
