@@ -28,7 +28,6 @@ c. Group Name
 D. Year (Zero - VIII)
 Make the above report in a view using joins between the required tables and name
 columns exactly as above.
-
 <br><br>
 4. From her own funds, the kindergarten principal decides that she can offer bonuses to the incumbent teachers
 of the number of students in the class and seniority. She needs the following information:
@@ -47,7 +46,6 @@ Cumulated with
 - 0% for less than 20 students
 - 3% for more than 21 students
 Perform a stored procedure that generates the above report using join between tables.
-
 <br><br>
 5. One of the parents moves his child to another institution. Performs a stored procedure that
 update the student in the Student table (set them to idle) and then remove him from his class.
