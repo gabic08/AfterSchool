@@ -1,8 +1,8 @@
 You are the administrator of the database at the town hall of your city and you want to create a database
 containing all the AfterSchools in the city. For starters though, it starts with a pilot project through
 which is entered in the database only one institution, its teachers and students.
-The database consists of the following tables:
- -AFTERSCHOOL(ID, Denumire, NrClase)
+The database consists of the following tables:<br>
+ - AFTERSCHOOL(ID, Denumire, NrClase)
  - GRUPA(ID, AnScolar, DenumireGrupa)
  - ELEV(ID, IdAterS, IdGrupa, Nume, DataNastere, Varsta, DataInmatriculare, NumeParinte, NrTelefon, Activ)
  - PROFESOR(ID, IdAterS, Nume, Materie, Salariu, Vechime, Activ)
